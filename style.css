@@ -2,3 +2,22 @@ h1 {
   text-align: center;
   background-color: lightblue;
 }
+
+h2 {
+  text-align: center;
+  background-color: white;
+  font-weight: bold;
+}
+
+#nav {
+  text-align: center;
+  background-color: yellow;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+.link-list {
+  background-color: Ivory;
+}
