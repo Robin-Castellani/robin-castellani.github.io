@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metamorphosis</title>
+    <link>https://robin-castellani.github.io/</link>
+    <description>Recent content on Metamorphosis</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 May 2024 20:38:29 +0200</lastBuildDate>
+    <atom:link href="https://robin-castellani.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[from Florence import PyCon] Public speaking workshop</title>
+      <link>https://robin-castellani.github.io/posts/02_pycon_public_speaking/</link>
+      <pubDate>Wed, 29 May 2024 20:38:29 +0200</pubDate>
+      <guid>https://robin-castellani.github.io/posts/02_pycon_public_speaking/</guid>
+      <description>Public Speaking workshop with Lorenzo Barbieri lorenzo.barbieri@outlook.com&#xA;Tl;dr STOP putting an about me part in your presentation.&#xA;STOP boring your audience with useless information.&#xA;GIVE VALUE to your audience to make them happy and satisfied of hearing you speaking.&#xA;Full version Here you&amp;rsquo;ll find some advices for speaking in public. They&amp;rsquo;re particularly meant for sessions outside a company (for example at a conference), but they can be also applied to internal meeting in some cases.</description>
+    </item>
+    <item>
+      <title>My very first project (and how I won missing completely my goal)</title>
+      <link>https://robin-castellani.github.io/posts/01_story/</link>
+      <pubDate>Tue, 02 Aug 2022 20:35:56 +0200</pubDate>
+      <guid>https://robin-castellani.github.io/posts/01_story/</guid>
+      <description>This is a story into which you could find a bit of yourself, a story about a dream which turned into a different reality. Just let yourself enjoy the telling and dream your dream… 😉&#xA;It’s the roaring late 2000s. You’re a teenager, your parents give you an iMac because they think you could get fun out of it - and tinker with what they think is a cool tech platform.</description>
+    </item>
+    <item>
+      <title>Hello world 🗺️</title>
+      <link>https://robin-castellani.github.io/posts/00_intro/</link>
+      <pubDate>Wed, 22 Jun 2022 20:00:00 -0200</pubDate>
+      <guid>https://robin-castellani.github.io/posts/00_intro/</guid>
+      <description>As time passes by, we change and evolve to something new.&#xA;I decided to follow my dream. At least, the dream I’m dreaming on now. That is: travel and live in a warm place, where people are easy.&#xA;My short/medium-term strategy is creating a small blog along with a customized portfolio. I’ll have to learn a lot; I hope this little corner of the web will become useful to me and for those who are looking for the IT-part of myself.</description>
+    </item>
+  </channel>
+</rss>

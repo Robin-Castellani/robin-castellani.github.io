@@ -1,0 +1,4 @@
+baseURL = 'https://robin-castellani.github.io'
+languageCode = 'en-us'
+title = 'Metamorphosis'
+theme = "ananke"
