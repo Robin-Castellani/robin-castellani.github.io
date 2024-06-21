@@ -17,7 +17,7 @@ enableRobotsTXT = false
   avatarSize = "size-l"
 
   # Description to display on homepage
-  description = "Fatti non foste a viver come bruti ma per seguir virtute et canoscienza."
+  description = "... fatti non foste a viver come bruti, ma per seguir virtute e canoscenza."
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#009e22"
