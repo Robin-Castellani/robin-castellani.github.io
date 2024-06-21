@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #009e22;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>[from Florence import PyCon] Third day notes</title>
+    <meta name="description" content="... fatti non foste a viver come bruti, ma per seguir virtute e canoscenza.">
+    <meta name="keywords" content=''>
+
+    <meta property="og:url" content="https://robin-castellani.github.io/posts/2024-05-25_pycon_3/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="[from Florence import PyCon] Third day notes">
+    <meta property="og:description" content="... fatti non foste a viver come bruti, ma per seguir virtute e canoscenza.">
+    <meta property="og:image" content="https://github.com/Robin-Castellani/metamorphosis.github.io/blob/main/static/images/me.jpg?raw=true">
+    <meta property="og:image:secure_url" content="https://github.com/Robin-Castellani/metamorphosis.github.io/blob/main/static/images/me.jpg?raw=true">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="[from Florence import PyCon] Third day notes">
+    <meta name="twitter:description" content="... fatti non foste a viver come bruti, ma per seguir virtute e canoscenza.">
+    <meta property="twitter:domain" content="https://robin-castellani.github.io/posts/2024-05-25_pycon_3/">
+    <meta property="twitter:url" content="https://robin-castellani.github.io/posts/2024-05-25_pycon_3/">
+    <meta name="twitter:image" content="https://github.com/Robin-Castellani/metamorphosis.github.io/blob/main/static/images/me.jpg?raw=true">
+
+    
+    <link rel="canonical" href="https://robin-castellani.github.io/posts/2024-05-25_pycon_3/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.9a920d7dabdbad8363b6a0a94e29a9dfebdb7ee64cfcb193a0145e512ef2bdab.js" integrity="sha256-mpINfavbrYNjtqCpTimp3&#43;vbfuZM/LGToBReUS7yvas="></script>
+
+    
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://robin-castellani.github.io/">
+                <img src='https://github.com/Robin-Castellani/metamorphosis.github.io/blob/main/static/images/me.jpg?raw=true' alt="Wall Italian Lizard">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://robin-castellani.github.io/">Metamorphosis</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://robin-castellani.github.io/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://robin-castellani.github.io/posts/"><span data-feather='book'></span> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/robin-castellani"><span data-feather='github'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://linkedin.com/in/robin-castellani/"target="_blank"><span data-feather='linkedin'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target"></span>
+                <a>
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://robin-castellani.github.io/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://robin-castellani.github.io/posts/"><span data-feather='book'></span> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/robin-castellani"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://linkedin.com/in/robin-castellani/"target="_blank"><span data-feather='linkedin'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a>
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>[from Florence import PyCon] Third day notes</h1>
+        <small role="doc-subtitle"></small>
+        <p class="post-date">May 25, 2024
+        
+        </p>
+
+        <ul class="post-tags">
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <h1 id="keynote-myths-and-fairy-tales-around-python-performance">[KEYNOTE] Myths and fairy tales around Python performance</h1>
+<p>by <a href="https://pyscript.com/@antocuni/">Antonio Cuni</a> - <a href="https://antocuni.pyscriptapps.com/pycon-it-2024-performance-myths/latest/">slides</a></p>
+<p>Python is slow. Full stop.
+When optimizing a part of code, you could follow the Pareto principle: you can find that 20% of code which accounts for the 80% of total runtime, and then optimize that part.
+But then, after the optimization, you&rsquo;ll find yourself with the remaining 80% of the code which now accounts for a big, not negligible part of the total runtime!</p>
+<p>Python is slow because of its dynamicity. You can have dynamics types, at the cost of having a very very very long Python bytecode.
+Also, memory management and pointers are a major source of Python slowness; on the other side, you don&rsquo;t have to tackle data allocation in memory when writing code.</p>
+<p>Some interesting tools met in this talk:
+<a href="https://pyscript.com/">pyscript.com</a> - a free platform that lets you create web applications with a suite of web-ready Python libraries, can be used to host and share slides
+<a href="https://github.com/pdbpp/pdbpp">pdb++</a> - a drop-in replacement for <a href="https://docs.python.org/3/library/pdb.html">pdb</a> (Python Debugger)
+<a href="https://4897a01d-e56f-47fa-814f-70c7c1e11730.pyscriptapps.com/8bd8148e-fbdc-49f9-9ec2-0b01f432ef90/latest/">spylang/spy</a> - a static Python to WASM compiler - <a href="https://github.com/spylang/spy">github repo</a></p>
+<h1 id="talk-preservare-la-privacy-dei-dati-personali-nellera-dellia-un-approccio-pratico-con-nerpii">[TALK] Preservare la Privacy dei Dati Personali nell&rsquo;Era dell&rsquo;IA: Un Approccio Pratico con Nerpii</h1>
+<p>by Simona Mazzarino - ClearBoxAI - <a href="https://github.com/simonamazzarino/pycon_slides">slides</a></p>
+<p><a href="https://github.com/Clearbox-AI/nerpii">NERPII</a> (Named Entity Recognition for Personal Identifier Information) is an open source library to recognize PII in a text/database and to replace them with synthetic data. There&rsquo;s no direct application of this ML models to Eoliann&rsquo;s maps, but maybe when dealing with customer data in the future (I can&rsquo;t figure out a use case).</p>
+<p>These synthetic data aren&rsquo;t 1-to-1 copies of the original data, but they are generated and they have the same statistics (such as with the same distribution) of original data.
+Synthetic data are generated with GAE/GANN. As you&rsquo;re generating data, you can augment your original dataset, while preserving original data privacy.</p>
+<h1 id="talk-sii-il-cambiamento-che-vuoi-vedere-nel-mondo">[TALK] Sii il cambiamento che vuoi vedere nel mondo</h1>
+<p>by Mara Marzocchi - <a href="https://www.codemotion.com/">Codemotion</a> - <a href="mailto:mara.marzocchi@gmail.com">mara.marzocchi@gmail.com</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Robert_Owen">Robert Owen</a> in the early 19th century founded a wellbeing model for workers in the textile industry.
+Gandhi reacted to English domination although he was shy and not good in public speaking.</p>
+<p>Embody the change and inspire others.
+Start even if you&rsquo;re alone&hellip; (Robert and Gandhi were)
+&hellip;even if you&rsquo;re not a leader&hellip; (just need to get to the tipping point and everyone will join)
+&hellip;and remember: every step counts! (done is better than perfect)</p>
+<p>The <a href="https://www.manifestoitalianodonnetecnologia.com/">manifesto italiano per l&rsquo;uguaglianza delle ragazze e delle donne nella tecnologia</a> has been published. Sign and reach 1000 signatures together!</p>
+<h1 id="talk-python-friendly-cloud-infrastructure-management">[TALK] Python-friendly cloud infrastructure management</h1>
+<p>by Roman Prykhodchenko - Hauki Tech - <a href="mailto:roman@hauki.tech">roman@hauki.tech</a></p>
+<p>Developers don&rsquo;t like infrastructure. Why?
+Because infra is complex.
+And because devs are isolated, they are now far from infrastructure (back in time, you as a developer were able to understand deployment as you simply needed to copy/paste files from your local PC to your local server).</p>
+<p>Developers <em>should not</em> avoid infrastructure, so:</p>
+<ul>
+<li>communicate with operations people;</li>
+<li>break the silos and work together.</li>
+</ul>
+<p>Hashicorp&rsquo;s Terraform is a provider agnostic Infrastructure as a Code service. With Terraform, you write <code>manifest</code> files, where you descrive the desired infrastructure state; you have <code>state</code> files, where there&rsquo;s the description of the actual infrastructure state; and there there&rsquo;s the &ldquo;real&rdquo; infrastructure by your cloud provider.
+You write declarative code, therefore you describe the infrastructure you want, but Terraform take care of how to build that desired infrastructure.
+Very important thing to note: Terraform uses its HCL, which is Terraform&rsquo;s peculiar language. This is not Python. This creates barriers between developers and the infrastructure.</p>
+<p>Terraform provides the Cloud Development Kit (CDK), with which you can write <code>state</code> files with Python! An example code shown at the talk is available at <a href="https://github.com/haukitech/pyconit24-terraform-example">Hauki Tech GitHub page</a>.
+AWS provides reference modules for sane default infrastructure pieces.
+AWS provides also reference architectures for typical use cases.</p>
+<p>Remember that IaC files should be as simple as possible: do not convolute them with strange Python loops!</p>
+<p>You can also test the created infrastructure with pytest. How?</p>
+<p>Devs should have a convenient way to put to production their code on a first try.</p>
+<h1 id="talk-snakes-and-ladders-the-ups-and-downs-of-python-development-with-aws-lambda">[TALK] Snakes and Ladders: The Ups and Downs of Python Development with AWS Lambda</h1>
+<p>by Kristi Perreault</p>
+<p>To get good everyday tools to work with AWS Lambdas with Python, use the Lambda Powertools library (we already use them): you&rsquo;ll get Tracers, Metrics, Loggers and Event Handlers.</p>
+<p>Python is one of the language with the shortest cold start time in Lambdas.</p>
+<p>She suggested to use <a href="https://aws.amazon.com/codedeploy/">AWS CodeDeploy</a> and <a href="https://aws.amazon.com/codepipeline/">AWS CodePipeline</a>.</p>
+<p>To test locally lambdas, use Moto or <a href="https://pypi.org/project/python-lambda-local/">Python-lambda-local</a> (this second one is probably not available for Lambdas running containers).</p>
+<h1 id="keynote-stay-close-to-the-metal">[KEYNOTE] Stay Close to the Metal</h1>
+<p>by Vicki Boykis - Mozilla AI</p>
+<p>Ellen Ullman&rsquo;s book <em>Close to the Machine</em>.
+Felienne Hermans&rsquo;s book <em>The programmer&rsquo;s brain</em>.</p>
+<p>Unix&rsquo;s philosophy: each program should do one thing and do it well; for new tasks, start afresh.</p>
+<p>Some tools mentioned during the keynote:</p>
+<ul>
+<li><a href="https://docs.ray.io/en/master/index.html">Ray</a> - open source framework to build and scale ML and Python applications easily</li>
+<li><a href="https://docs.vllm.ai/en/latest/">vLLM</a> - fast and easy-to-use library for LLM inference and serving</li>
+<li><a href="https://github.com/Mozilla-Ocho/llamafile">llamafile</a> - lets you distribute and run LLMs with a single file (by Mozilla)</li>
+<li><a href="https://github.com/mozilla-ai/lm-buddy">lm-buddy</a> - a collection of jobs for finetuning and evaluating open-source (large) language models; released by <a href="https://www.mozilla.ai/">mozilla.ai</a> (apparently, a startup spinoff of Mozilla).</li>
+</ul>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+    <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="topFunction()" title="Go to top">
+        
+        <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+    </svg>
+    <script>
+        let backToTopButton = document.getElementById("btt-button");
+
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            smoothScrollToTop();
+        }
+
+        function smoothScrollToTop() {
+            const scrollToTop = () => {
+                const c = document.documentElement.scrollTop || document.body.scrollTop;
+                if (c > 0) {
+                    window.requestAnimationFrame(scrollToTop);
+                    window.scrollTo(0, c - c / 8);
+                }
+            };
+            scrollToTop();
+        }
+    </script>
+    
+    
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    
+    <span>&copy; 2024 Robin Castellani</span>
+    
+</footer></body>
+</html>
