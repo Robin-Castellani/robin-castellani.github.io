@@ -5,7 +5,7 @@
 
     <style>
         :root {
-            --accent-color: #FF4D4D;
+            --accent-color: #009e22;
         }
     </style>
 
@@ -18,22 +18,22 @@
 
     
     <title>My very first project (and how I won missing completely my goal)</title>
-    <meta name="description" content="">
+    <meta name="description" content="Fatti non foste a viver come bruti ma per seguir virtute et canoscienza.">
     <meta name="keywords" content=''>
 
     <meta property="og:url" content="https://robin-castellani.github.io/posts/01_story/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="My very first project (and how I won missing completely my goal)">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="https://robin-castellani.github.io/">
-    <meta property="og:image:secure_url" content="https://robin-castellani.github.io/">
+    <meta property="og:description" content="Fatti non foste a viver come bruti ma per seguir virtute et canoscienza.">
+    <meta property="og:image" content="https://github.com/Robin-Castellani/metamorphosis.github.io/blob/main/static/images/me.jpg?raw=true">
+    <meta property="og:image:secure_url" content="https://github.com/Robin-Castellani/metamorphosis.github.io/blob/main/static/images/me.jpg?raw=true">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="My very first project (and how I won missing completely my goal)">
-    <meta name="twitter:description" content="">
+    <meta name="twitter:description" content="Fatti non foste a viver come bruti ma per seguir virtute et canoscienza.">
     <meta property="twitter:domain" content="https://robin-castellani.github.io/posts/01_story/">
     <meta property="twitter:url" content="https://robin-castellani.github.io/posts/01_story/">
-    <meta name="twitter:image" content="https://robin-castellani.github.io/">
+    <meta name="twitter:image" content="https://github.com/Robin-Castellani/metamorphosis.github.io/blob/main/static/images/me.jpg?raw=true">
 
     
     <link rel="canonical" href="https://robin-castellani.github.io/posts/01_story/">
@@ -61,6 +61,12 @@
     <nav class="header-nav">
 
         
+        <div class="avatar">
+            <a href="https://robin-castellani.github.io/">
+                <img src='https://github.com/Robin-Castellani/metamorphosis.github.io/blob/main/static/images/me.jpg?raw=true' alt="avatar">
+            </a>
+        </div>
+        
 
         <div class="nav-title">
             <a class="nav-brand" href="https://robin-castellani.github.io/">Metamorphosis</a>
@@ -74,6 +80,10 @@
             
             <div class="nav-link">
                 <a href="https://github.com/robin-castellani"><span data-feather='github'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://linkedin.com/in/robin-castellani/"target="_blank"><span data-feather='linkedin'></span>  </a>
             </div>
             
 
@@ -101,6 +111,10 @@
                 
                 <li class="nav-item">
                     <a href="https://github.com/robin-castellani"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://linkedin.com/in/robin-castellani/"target="_blank"><span data-feather='linkedin'></span>  </a>
                 </li>
                 
                 <li class="nav-item dark-theme-toggle">
@@ -146,6 +160,41 @@
 
     
     
+    <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="topFunction()" title="Go to top">
+        
+        <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+    </svg>
+    <script>
+        let backToTopButton = document.getElementById("btt-button");
+
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            smoothScrollToTop();
+        }
+
+        function smoothScrollToTop() {
+            const scrollToTop = () => {
+                const c = document.documentElement.scrollTop || document.body.scrollTop;
+                if (c > 0) {
+                    window.requestAnimationFrame(scrollToTop);
+                    window.scrollTo(0, c - c / 8);
+                }
+            };
+            scrollToTop();
+        }
+    </script>
+    
     
 </div>
 
@@ -157,6 +206,8 @@
     
     
 
+    
+    <span>&copy; 2024 Robin Castellani</span>
     
     <span>
         Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
