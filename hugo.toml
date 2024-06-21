@@ -12,7 +12,7 @@ enableRobotsTXT = false
 [params]
   # URL for the avatar on homepage
   avatarURL = "https://github.com/Robin-Castellani/metamorphosis.github.io/blob/main/static/images/me.jpg?raw=true"
-
+  avatarAltText = "Wall Italian Lizard"
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
   avatarSize = "size-l"
 
@@ -36,27 +36,32 @@ enableRobotsTXT = false
 
 [menu]
   [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
     # Unique identifier for a menu item
     identifier = "posts"
 
     url = "/posts/"
     
-    # You can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-
     # You can add extra information after the name (HTML format is supported), such as icons
     post = ""
 
     # Display name
     name = "Posts"
+    
+    pre = "<span data-feather='book'></span>"
 
     # Weights are used to determine the ordering
-    weight = 1
+    weight = 2
     
   [[menu.main]]
     identifier = "github"
     url = "https://github.com/robin-castellani"
-    weight = 2   
+    weight = 3   
     
     # We use feather-icons: https://feathericons.com/
     pre = "<span data-feather='github'></span>"
@@ -64,7 +69,7 @@ enableRobotsTXT = false
   [[menu.main]]    
     identifier = "linkedin"
     url = "https://linkedin.com/in/robin-castellani/"
-    weight = 2 
+    weight = 3
     
     # We use feather-icons: https://feathericons.com/
     pre = "<span data-feather='linkedin'></span>"
