@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Metamorphosis</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 May 2024 15:21:18 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 24 May 2024 21:25:38 +0200</lastBuildDate>
     <atom:link href="https://robin-castellani.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[from Florence import PyCon] Second day notes</title>
+      <link>https://robin-castellani.github.io/posts/2024-05-24_pycon_2/</link>
+      <pubDate>Fri, 24 May 2024 21:25:38 +0200</pubDate>
+      <guid>https://robin-castellani.github.io/posts/2024-05-24_pycon_2/</guid>
+      <description>[KEYNOTE] The attentive programmer by Daniele Procida - Canonical&#xA;Programming is the expression of will. We&amp;rsquo;re like God! 🌟&#xA;This is a love project, this is something Daniele has programmed about: C is for Camera. And this is something about writing the right content to the right audience: Diátaxis.&#xA;Poem&#xA;Pay attention Be astonished Tell about it&#xA;[TALK] Modern observability for Python by Adrian Garcia Badaracco&#xA;The way we monitor a Python program has passed through many layers: from print to logging, to metrics and traces, to distributed traces to Open Telemetry (OTEL).</description>
+    </item>
     <item>
       <title>[from Florence import PyCon] First day notes</title>
       <link>https://robin-castellani.github.io/posts/2024-05-23_pycon_1/</link>
