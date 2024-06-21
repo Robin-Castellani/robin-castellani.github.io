@@ -6,8 +6,15 @@
     <description>Recent content on Metamorphosis</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 May 2024 20:38:29 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 23 May 2024 15:21:18 +0200</lastBuildDate>
     <atom:link href="https://robin-castellani.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[from Florence import PyCon] First day notes</title>
+      <link>https://robin-castellani.github.io/posts/2024-05-23_pycon_1/</link>
+      <pubDate>Thu, 23 May 2024 15:21:18 +0200</pubDate>
+      <guid>https://robin-castellani.github.io/posts/2024-05-23_pycon_1/</guid>
+      <description>[KEYNOTE] Mirror, mirror: LLMs and the illusion of humanity by Jodie Burchell&#xA;Blake Lemoine article on LamDA. 1984&amp;rsquo;s Newspeak: what&amp;rsquo;s the meaning of a word? Octopus thought test. Thomas Nagel&amp;rsquo;s paper: What is like to be a bat?.&#xA;Sources.&#xA;[TALK] Il software funzionante è il principale metro di misura di progresso by Raffaele Colace - 20tab srl (look at the Product Management Festival) The title is a citation of the Agile Manifesto.</description>
+    </item>
     <item>
       <title>[from Florence import PyCon] Public speaking workshop</title>
       <link>https://robin-castellani.github.io/posts/2024-05-22_pycon_public_speaking/</link>
