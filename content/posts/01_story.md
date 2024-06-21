@@ -1,6 +1,7 @@
 +++
 title = 'My very first project (and how I won missing completely my goal)'
 date = 2022-08-02T20:35:56+02:00
+type = 'post'
 +++
 
 This is a story into which you could find a bit of yourself, a story about a dream which turned into a different reality. Just let yourself enjoy the telling and dream your dream… 😉

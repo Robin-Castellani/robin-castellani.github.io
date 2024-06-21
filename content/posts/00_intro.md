@@ -1,6 +1,7 @@
 +++
 title = 'Hello world 🗺️'
 date = 2022-06-22T20:00:00-02:00
+type = 'post'
 +++
 *As time passes by, we change and evolve to something new.*
 

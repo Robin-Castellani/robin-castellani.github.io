@@ -1,6 +1,7 @@
 +++
 title = '[from Florence import PyCon] Public speaking workshop'
 date = 2024-05-29T20:38:29+02:00
+type = 'post'
 +++
 # Public Speaking workshop
 
