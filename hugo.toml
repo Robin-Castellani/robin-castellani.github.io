@@ -11,7 +11,7 @@ enableRobotsTXT = false
 
 [params]
   # URL for the avatar on homepage
-  avatarURL = "https://github.com/Robin-Castellani/metamorphosis.github.io/blob/main/static/images/me.jpg?raw=true"
+  avatarURL = "https://github.com/Robin-Castellani/robin-castellani.github.io/blob/main/static/images/me.jpg?raw=true"
   avatarAltText = "Wall Italian Lizard"
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
   avatarSize = "size-l"
